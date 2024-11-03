@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>digitalmarketing</title>
+    <link rel="shortcut icon" href="assets/marketing.png" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+
+        body {
+            background-color: gray;
+        }
+
+        nav {
+            display: flex;
+            margin: auto;
+            padding: 10px;
+            align-items: center;
+
+        }
+
+        nav>ul>li {
+            display: inline-block;
+        }
+
+        p>span {
+            color: white;
+            font-weight: bold;
+        }
+
+        ul>li {
+            border: 1px solid;
+            padding: 20px;
+            border: none;
+        }
+
+        nav>ul {
+            margin-left: 50%;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            margin: 3% auto;
+            width: 90%;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .subscribe {
+            font-size: 4em;
+            font-weight: bolder;
+            color: white;
+            margin-top: 8%;
+
+        }
+
+        .subscribe>img {
+            margin-left: 10%;
+        }
+
+        .subscribe>span {
+            color: black;
+        }
+
+        .input>input {
+            padding: 12px;
+            border-radius: 40px;
+            border: none;
+            width: 20vw;
+            margin-top: 2%;
+            font-family: sans-serif;
+            font-size: large;
+        }
+
+        button {
+            padding: 12px;
+            width: 10vw;
+            color: white;
+            background-color: black;
+            border-radius: 40px;
+            border: none;
+            margin-top: 2%;
+        }
+
+        .button>img {
+            margin-left: 25%;
+        }
+
+        .para>p {
+            display: inline-block;
+        }
+
+        .image>img {
+            width: 450px;
+
+        }
+
+        .image {
+            display: flex;
+            justify-content: flex-start;
+            align-items: flex-end;
+
+        }
+
+        .end>img {
+            bottom: 2%;
+            right: 2%;
+            position: fixed;
+            width: 50px;
+        }
+        footer{
+            background-color: black;
+            color: gray;
+            display: flex;
+            padding: 30px;
+            text-decoration: underline;
+        }
+        .help{
+         line-height: 40px;
+        }
+     .account{
+        margin-left: 30%;
+        line-height: 40px;
+     }
+      .media{
+        margin-left: 30%;
+        line-height: 40px;
+      }  
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div><img src="assets/world.png" alt="here's an image" width="40px"></div>
+            <p>Creative <br> <span>Marketing</span></p>
+            <ul>
+                <li>Home</li>
+                <li>Services <img src="assets/down arrow.png" alt="arrow png" width="9px" style="color: white;"></li>
+                <li>Blog</li>
+                <li>About</li>
+                <li>FAQ</li>
+                <li><img src="assets/search.png" alt="" width="50px"></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="content">
+            <div class="subscribe">
+                Subscribe Now <br><span>to our Newsletter</span><img src="assets/rocket.png" alt="" width="50px">
+
+            </div>
+            <div class="para">
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Esse tempore adipisci,<br> quaerat
+                    distinctio
+                    asperiores ut neque alias cupiditate reprehenderit <br> harum similique libero labore eaque magni
+                    totam id quam
+                    <br>
+                </p>
+            </div>
+            <div class="input">
+                <input type="text" name="username" placeholder="Name"> <br>
+                <input type="email" name="email" placeholder="email"> <br>
+            </div>
+            <div class="button">
+                <button>Send</button> <img src="assets/message.png" alt="" width="50px">
+            </div>
+        </div>
+        <div class="image">
+            <img src="assets/image.png" alt="here's an image">
+        </div>
+    </div>
+    <div class="end"><img src="assets/bottom.png" alt="here's an png">
+    </div>
+    
+<footer>
+    <div class="help">
+        <p>Help Center</p>
+        <p>Jobs</p>
+        <p>Cookie Preferences</p>
+        <p>Legal Noteses</p>
+    </div>
+    <div class="account">
+        <p>Account</p>
+        <p>Ways to Watch</p>
+        <p>Corporate Information</p>
+    </div>
+    <div class="media">
+        <p> Media Center</p>
+        <p>Term of Use</p>
+        <p>Contact Us </p>
+    </div>
+</footer>
+</body>
+
+</html>
